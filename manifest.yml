@@ -1,0 +1,11 @@
+applications:
+- services:
+  - Nodecdb-MonitoringAndAnalytics
+  - UCDDemo-sqldb
+  disk_quota: 1024M
+  host: UCDDemo
+  name: UCDDemo
+  path: libertyDBApp.war
+  domain: eu-gb.mybluemix.net
+  instances: 1
+  memory: 512M
